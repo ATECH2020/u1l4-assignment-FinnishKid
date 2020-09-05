@@ -19,7 +19,7 @@ class StudentDesks {
         int group3desk = group3/2 + group3%2;
 
         int totaldesk = group1desk + group2desk + group3desk;
-        System.out.println(totaldesk);
+        System.out.print(totaldesk);
 
         // closing the scanner object
         scanner.close();

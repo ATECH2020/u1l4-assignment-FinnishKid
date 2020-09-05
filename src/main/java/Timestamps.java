@@ -27,7 +27,7 @@ class Timestamps {
 
         int totaldiff = hdiff + mdiff + secdiff;
 
-        System.out.println(totaldiff);
+        System.out.print(totaldiff);
 
         // closing the scanner object
         scanner.close();
