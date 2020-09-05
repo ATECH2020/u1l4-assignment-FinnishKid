@@ -13,7 +13,7 @@ class AnalogClock {
          *  your code goes here
          */
 
-         int angleH = 2*(angleInput%30);
+         int angleH = 12*(angleInput%30);
          System.out.print(angleH);
 
         // closing the scanner object
