@@ -14,7 +14,7 @@ class SecondsPastMidnight {
         int minutes = (number/60);
 
         System.out.print(hours + " ");
-        System.out.println(minutes);
+        System.out.print(minutes);
 
         // closing the scanner object
         scanner.close();
