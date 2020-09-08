@@ -18,7 +18,16 @@ class Timestamps {
         /*
          *  your code goes here
          */
+        int hdiff = hours2 - hours1;
+        int mdiff = minutes2 - minutes1;
+        int secdiff = seconds2 - seconds1;
 
+        hdiff = (hdiff*3600);
+        mdiff = (mdiff*60);
+
+        int totaldiff = hdiff + mdiff + secdiff;
+
+        System.out.print(totaldiff);
 
         // closing the scanner object
         scanner.close();

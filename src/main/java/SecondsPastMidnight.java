@@ -10,7 +10,11 @@ class SecondsPastMidnight {
         int number = scanner.nextInt();
 
         //Your code goes here
+        int hours = (number/3600);
+        int minutes = (number/60);
 
+        System.out.print(hours + " ");
+        System.out.print(minutes);
 
         // closing the scanner object
         scanner.close();
